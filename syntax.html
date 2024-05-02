@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduJS</title>
+</head>
+<body>
+    <p id="jumlah1"></p>
+    <p id="jumlah2"></p>
+
+    <script>
+        let satu;
+        satu = 10;
+
+        let dua;
+        dua = 'saya belajar javascript'
+
+        let tiga;
+        tiga = 40;
+
+        document.getElementById('jumlah1').innerHTML = (satu + dua); // angka dan huruf tidak bisa di jumlah , hasil yang keluar adalah '10saya belajar javascript'
+        document.getElementById('jumlah2').innerHTML = (satu + tiga);
+
+    </script>
+</body>
+</html>
