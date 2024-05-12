@@ -38,5 +38,5 @@ describe('Working with inputs', () => {
         cy.get('#user_remember_me').check()
         cy.get('#user_remember_me').should('be.checked')
 })
-   
+    
 });
