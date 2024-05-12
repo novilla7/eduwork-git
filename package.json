@@ -1,0 +1,15 @@
+{
+  "name": "eduwork-git",
+  "version": "1.0.0",
+  "description": "tugas eduwork",
+  "main": "index.js",
+  "repository": "https://github.com/novilla7/eduwork-git.git",
+  "author": "novilla7 <nopilla7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.9.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
